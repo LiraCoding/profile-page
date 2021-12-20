@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="profilepage.css" />
+  </head>
+  <body>
+    <!-- Nav Bar -->
+    <div class="nav flex justify-between align-center">
+      <div class="flex justify-between align-center">
+        <h1>Profile</h1>
+        <p>Home</p>
+        <p>My Profile</p>
+        <p>Find Connections</p>
+      </div>
+      <button class="button">Sign Out</button>
+    </div>
+    <!-- body -->
+    <div class="main flex">
+      <div class="profile col-3">
+        <!-- user-card -->
+        <div class="user-card flex">
+          <div class="user-banner">
+            <img id="profile-picture" src="user-circle.png" alt="" />
+          </div>
+          <div class="user-body">
+            <h1 id="name">Stephanie Lira</h1>
+            <p id="located"><img src="map-marker.png" alt="" />Buckeye Az</p>
+            <div id="bio"></div>
+            <p>Developer | Engineer | Problem Solver</p>
+            <p>Very Motivated, Hard Worker, Team Player!</p>
+            <a id="edit" href="#"
+              ><img src="gear.png" alt="" /><span>edit profile</span></a
+            >
+          </div>
+        </div>
+
+        <div class="user-card">
+          <div class="poster">
+            <div class="heading">
+              <h1>Education</h1>
+            </div>
+          </div>
+          <div class="info flex-down">
+            <p class="school-name">Coding Dojo-Full Stack Bootcamp</p>
+            <p class="date">Dec 2021 - April 2022</p>
+            <p class="stacks">Triple Black Belt in Python, Mern, and C#...</p>
+          </div>
+        </div>
+      </div>
+      <!-- </div> -->
+      <div class="connections col-2">
+        <div class="user-card" id="requests">
+          <div class="poster">
+            <div class="heading">
+              <h1><span class="circles">2</span>Connection Requests</h1>
+            </div>
+          </div>
+          <div class="info flex-down">
+            <div class="friend flex justify-between">
+              <div class="flex align-center">
+                <img class="friendicon" src="user-circle.png" alt="" />
+                <p>Todd E</p>
+              </div>
+              <div>
+                <img src="accept-circle.png" alt="" />
+                <img src="close-circle.png" alt="" />
+              </div>
+            </div>
+            <div class="friend flex justify-between">
+              <div class="flex align-center">
+                <img class="friendicon" src="user-circle.png" alt="" />
+                <p>Phill K</p>
+              </div>
+              <div>
+                <img src="accept-circle.png" alt="" />
+                <img src="close-circle.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="user-card" id="your-connections">
+          <div class="poster">
+            <div class="heading">
+              <h1><span class="circles">500+</span>Your Connections</h1>
+            </div>
+          </div>
+          <div class="info">
+            <div class="friend">
+              <img class="friendicon" src="user-circle.png" alt="" />
+              <p>Adren D</p>
+            </div>
+            <div class="friend">
+              <img class="friendicon" src="user-circle.png" alt="" />
+              <p>Anne J</p>
+            </div>
+            <div class="friend">
+              <img class="friendicon" src="user-circle.png" alt="" />
+              <p>Alayne T</p>
+            </div>
+            <div class="friend">
+              <img class="friendicon" src="user-circle.png" alt="" />
+              <p>Arry Y</p>
+            </div>
+          </div>
+          <a class="view-more" href="www.google.com">View More</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

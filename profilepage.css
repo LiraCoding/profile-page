@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.nav {
+  height: 5em;
+  color: white;
+  background-color: rgb(3, 3, 3);
+  font-family: "Quattrocento Sans", sans-serif;
+}
+
+img {
+  width: 50px;
+}
+
+.nav div {
+  width: 50%;
+  margin-left: 1em;
+  margin: 10px 20px;
+}
+
+.nav div p:nth-child(3) {
+  font-weight: bold;
+}
+
+.button {
+  color: whitesmoke;
+  background-color: lightseagreen;
+  width: 75px;
+  height: 20px;
+  font-weight: bold;
+  border-width: 3px;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  margin-right: 1em;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.col-3 {
+  flex: 3;
+}
+
+.col-2 {
+  flex: 2;
+}
+
+.profile {
+  height: 100%;
+  padding: 1em;
+  width: 100%;
+}
+
+.connections {
+  height: 100%;
+  padding: 1em;
+  width: 100%;
+}
+
+.user-card {
+  flex-direction: column;
+  border: 2px solid gray;
+  height: 400px;
+  width: 90%;
+  background-color: turquoise;
+  padding-bottom: 30px;
+  margin-bottom: 1em;
+}
+
+.user-body {
+  flex: 4;
+  margin-left: 1em;
+}
+.user-banner {
+  flex: 1;
+  background-color: mediumblue;
+}
+
+#profile-picture {
+  margin-left: 5%;
+  height: 0.5em;
+  width: 10em;
+  border-radius: 50%;
+}
+
+/* .user-card div:first-child {
+  background-color: mediumblue;
+  height: 30%;
+  width: 100%;
+  margin-bottom: 20%;
+} */
+.edit-profile {
+  height: 5px;
+  width: 10px;
+}
+
+.color {
+  height: 150px;
+  background-color: mediumblue;
+}
+#located {
+  font-weight: bold;
+  font-size: 26px;
+}
+
+#located img {
+  height: 30px;
+  padding-right: 10px;
+}
+
+#bio {
+  margin: 10px 0;
+}
+
+#profile-picture {
+  padding: 4px;
+  border: solid 1px;
+  border-radius: 90%;
+  height: 150px;
+  margin-top: 2em;
+  position: absolute;
+  background-color: mintcream;
+}
+
+.content {
+  padding: 30px;
+  position: relative;
+}
+
+#name {
+  margin-top: 150px;
+  margin-bottom: 10px;
+}
+
+#edit {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  margin-top: 1em;
+}
+
+#edit img {
+  height: 30px;
+  padding-right: 10px;
+}
+
+.poster {
+  background-color: mediumblue;
+  padding: 10px;
+}
+
+.heading {
+  font-size: small;
+  color: whitesmoke;
+}
+
+.circles {
+  background-color: tomato;
+  padding: 5px;
+  margin-right: 6px;
+  border-radius: 50%;
+}
+
+.friend {
+  display: flex;
+  padding-bottom: 4px;
+  border: 1px solid gray;
+  align-items: center;
+}
+
+.friend p {
+  padding-left: 5px;
+}
+
+.friendicon {
+  height: 40px;
+  padding: 2px;
+}
+
+.accept {
+  padding: 2px;
+  height: 30px;
+}
+
+.decline {
+  padding: 2px;
+  height: 30px;
+}
+
+.info {
+  padding: 10px;
+}
+
+.schoolname {
+  padding-bottom: 5px;
+  font-size: x-large;
+}
+
+#your-connections {
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.date {
+  color: white;
+  padding-left: 12px;
+  padding-bottom: 5px;
+}
+
+.stacks {
+  font-size: medium;
+}
+
+.view-more {
+  border-top: 2px solid;
+  display: block;
+  padding: 10px;
+  padding-left: 12px;
+}
